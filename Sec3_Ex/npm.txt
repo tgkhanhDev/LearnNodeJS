@@ -1,0 +1,18 @@
+npm init: Khởi tạo npm package
+
+npm tự reload khi sửa code: npm install nodemon --save-dev
+            fixhere:        "start": "nodemon app.js",
+
+
+npm install : tự động cập nhập các dependencies.
+npm install (pakage): 
+    -g: install trên máy
+    --save-dev: thêm vào devDependencies
+
+
+auto save for debuggers: (run => open configuration)
+
+            "runtimeExecutable": "nodemon", 
+            "console": "integratedTerminal",
+            //lúc này debug vẫn chưa thành công vì nó kh tìm nodemon locally mà globally
+            //? => npm install nodemon -g
